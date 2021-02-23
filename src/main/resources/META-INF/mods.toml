@@ -59,6 +59,6 @@ Test 2
 [[dependencies.templarsore]]
     modId="templarscore"
     mandatory=true
-    versionRange = "[0.1,)"
+    versionRange = "[1.1-SNAPSHOT,)"
     ordering = "AFTER"
     side = "BOTH"
