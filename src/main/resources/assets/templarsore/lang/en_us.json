@@ -1,0 +1,12 @@
+{
+  "_comment": "Creative Tabs",
+  "itemGroup.templarsore": "Templars Ore",
+
+  "_comment": "Tin",
+  "block.templarsore.tin_ore": "Tin Ore",
+  "item.templarsore.tin_ingot": "Tin Ingot",
+
+  "_comment": "Zinc",
+  "block.templarsore.zinc_ore": "Zinc Ore",
+  "item.templarsore.zinc_ingot": "Zinc Ingot"
+}
