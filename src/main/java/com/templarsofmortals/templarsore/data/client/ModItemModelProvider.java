@@ -20,8 +20,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     private void registerOre(String name, ModelFile itemGenerated) {
         withExistingParent(name + "_ore", modLoc("block/" + name + "_ore"));
-        //getBuilder(name + "_nugget").parent(itemGenerated).texture("layer0", "item/" + name + "_nugget");
+        getBuilder(name + "_nugget").parent(itemGenerated).texture("layer0", "item/" + name + "_nugget");
         getBuilder(name + "_ingot").parent(itemGenerated).texture("layer0", "item/" + name + "_ingot");
-        //getBuilder(name + "_chunk").parent(itemGenerated).texture("layer0", "item/" + name + "_chunk");
+        getBuilder(name + "_chunk").parent(itemGenerated).texture("layer0", "item/" + name + "_chunk");
     }
 }

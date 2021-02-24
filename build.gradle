@@ -95,8 +95,10 @@ minecraft {
             // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
             property 'forge.logging.console.level', 'debug'
 
-            // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'templarsore', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'templarsore', '--all',
+                    '--existing', file('src/main/resources').toString(),
+                    '--existing', file('src/generated/resources').toString(),
+                    '--output', file('src/generated/resources/')
 
             mods {
                 templarsore {

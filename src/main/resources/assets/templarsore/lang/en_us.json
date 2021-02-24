@@ -5,8 +5,12 @@
   "_comment": "Tin",
   "block.templarsore.tin_ore": "Tin Ore",
   "item.templarsore.tin_ingot": "Tin Ingot",
+  "item.templarsore.tin_nugget": "Tin Nugget",
+  "item.templarsore.tin_chunk": "Tin Chunk",
 
   "_comment": "Zinc",
   "block.templarsore.zinc_ore": "Zinc Ore",
-  "item.templarsore.zinc_ingot": "Zinc Ingot"
+  "item.templarsore.zinc_ingot": "Zinc Ingot",
+  "item.templarsore.zinc_nugget": "Zinc Nugget",
+  "item.templarsore.zinc_chunk": "Zinc Chunk"
 }
