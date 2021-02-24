@@ -14,7 +14,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        simpleBlock(Ore.blocks.get("tin_ore").get());
-        simpleBlock(Ore.blocks.get("zinc_ore").get());
+        registerOre("antimony");
+        registerOre("cobalt");
+        registerOre("copper");
+        registerOre("lead");
+        registerOre("palladium");
+        registerOre("platinum");
+        registerOre("silver");
+        registerOre("tin");
+        registerOre("titanium");
+        registerOre("tungsten");
+        registerOre("zinc");
+    }
+
+    public void registerOre(String name) {
+        simpleBlock(Ore.blocks.get(name + "_ore").get());
     }
 }
