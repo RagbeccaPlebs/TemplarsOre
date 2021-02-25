@@ -114,7 +114,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.0.42'
-    implementation fg.deobf('com.templarsofmortals:TemplarsCore:1.1-SNAPSHOT')
+    implementation fg.deobf('com.templarsofmortals:TemplarsCore:1.2-SNAPSHOT')
 }
 
 repositories {

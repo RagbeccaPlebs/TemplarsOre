@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#templarsore:ores/antimony_ore",
+    "#templarsore:ores/cobalt_ore",
+    "#templarsore:ores/copper_ore",
+    "#templarsore:ores/lead_ore",
+    "#templarsore:ores/palladium_ore",
+    "#templarsore:ores/platinum_ore",
+    "#templarsore:ores/titanium_ore",
+    "#templarsore:ores/tungsten_ore",
+    "#templarsore:ores/zinc_ore"
+  ]
+}

@@ -49,6 +49,7 @@ public class Ore {
 
         blocks.put(combinedOreName, TemplarsOre.REGISTRY_HELPER.createBlock(combinedOreName,
                 () -> new StoneBlock(AbstractBlock.Properties.create(Material.ROCK, materialColor)
+                        .setRequiresTool()
                         .sound(SoundType.STONE)
                         .hardnessAndResistance(hardness, resistance)
                         .harvestTool(ToolType.PICKAXE)
