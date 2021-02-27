@@ -39,7 +39,7 @@ public class Ore {
     public static final HashMap<String, RegistryObject<Block>> blocks;
     public static final HashMap<String, RegistryObject<Item>> items;
 
-    public static void registerOre(String oreName, MaterialColor materialColor,
+    protected static void registerOre(String oreName, MaterialColor materialColor,
                                    float hardness, float resistance,
                                    int harvestLevel) {
         String combinedOreName = oreName + "_ore";
@@ -63,7 +63,7 @@ public class Ore {
 
     }
 
-    public static void registerAlloy(String metalName) {
+    protected static void registerAlloy(String metalName) {
         String combinedIngotName = metalName + "_ingot";
         String combinedNuggetName = metalName + "_nugget";
 

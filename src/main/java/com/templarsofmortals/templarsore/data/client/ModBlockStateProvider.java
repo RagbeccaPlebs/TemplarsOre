@@ -2,9 +2,12 @@ package com.templarsofmortals.templarsore.data.client;
 
 import com.templarsofmortals.templarsore.TemplarsOre;
 import com.templarsofmortals.templarsore.core.registries.Ore;
+import com.templarsofmortals.templarsore.core.registries.Stone;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+
+import java.util.Arrays;
 
 public class ModBlockStateProvider extends BlockStateProvider {
 
@@ -14,20 +17,43 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        registerOre("antimony");
-        registerOre("cobalt");
-        registerOre("copper");
-        registerOre("lead");
-        registerOre("palladium");
-        registerOre("platinum");
-        registerOre("silver");
-        registerOre("tin");
-        registerOre("titanium");
-        registerOre("tungsten");
-        registerOre("zinc");
+        String[] ores = {
+                "antimony",
+                "cobalt",
+                "copper",
+                "lead",
+                "palladium",
+                "platinum",
+                "silver",
+                "tin",
+                "titanium",
+                "tungsten",
+                "zinc",
+        };
+        Arrays.stream(ores).forEach(this::registerOre);
+        String[] stones = {
+                "aplite",
+                "argillite",
+                "basalt",
+                "dolerite",
+                "eclogite",
+                "gabbro",
+                "latite",
+                "limestone",
+                "marble",
+                "marl",
+                "quartzite",
+                "scoria",
+                "tuff",
+        };
+        Arrays.stream(stones).forEach(this::registerStone);
     }
 
-    public void registerOre(String name) {
+    private void registerOre(String name) {
         simpleBlock(Ore.blocks.get(name + "_ore").get());
+    }
+
+    private void registerStone(String name) {
+        simpleBlock(Stone.blocks.get(name).get());
     }
 }

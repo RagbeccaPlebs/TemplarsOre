@@ -9,10 +9,20 @@
   "item.templarsore.antimony_chunk": "Antimony Chunk",
   "item.templarsore.antimony_pickaxe": "Antimony Pickaxe",
 
+  "_comment": "Aplite",
+  "block.templarsore.aplite": "Aplite",
+
+  "_comment": "Argillite",
+  "block.templarsore.argillite": "Argillite",
+
+  "_comment": "Basalt",
+  "block.templarsore.basalt": "Basalt",
+
   "_comment": "Brass",
   "item.templarsore.brass_ingot": "Brass Ingot",
   "item.templarsore.brass_nugget": "Brass Nugget",
   "item.templarsore.brass_pickaxe": "Brass Pickaxe",
+
 
   "_comment": "Bronze",
   "item.templarsore.bronze_ingot": "Bronze Ingot",
@@ -33,12 +43,33 @@
   "item.templarsore.copper_chunk": "Copper Chunk",
   "item.templarsore.copper_pickaxe": "Copper Pickaxe",
 
+  "_comment": "Dolerite",
+  "block.templarsore.dolerite": "Dolerite",
+
+  "_comment": "Eclogite",
+  "block.templarsore.eclogite": "Eclogite",
+
+  "_comment": "Gabbro",
+  "block.templarsore.gabbro": "Gabbro",
+
+  "_comment": "Latite",
+  "block.templarsore.latite": "Latite",
+
   "_comment": "Lead",
   "block.templarsore.lead_ore": "Lead Ore",
   "item.templarsore.lead_ingot": "Lead Ingot",
   "item.templarsore.lead_nugget": "Lead Nugget",
   "item.templarsore.lead_chunk": "Lead Chunk",
   "item.templarsore.lead_pickaxe": "Lead Pickaxe",
+
+  "_comment": "Limestone",
+  "block.templarsore.limestone": "Limestone",
+
+  "_comment": "Marble",
+  "block.templarsore.marble": "Marble",
+
+  "_comment": "Marl",
+  "block.templarsore.marl": "Marl",
 
   "_comment": "Palladium",
   "block.templarsore.palladium_ore": "Palladium Ore",
@@ -53,6 +84,12 @@
   "item.templarsore.platinum_nugget": "Platinum Nugget",
   "item.templarsore.platinum_chunk": "Platinum Chunk",
   "item.templarsore.platinum_pickaxe": "Platinum Pickaxe",
+
+  "_comment": "Quartzite",
+  "block.templarsore.quartzite": "Quartzite",
+
+  "_comment": "Scoria",
+  "block.templarsore.scoria": "Scoria",
 
   "_comment": "Silver",
   "block.templarsore.silver_ore": "Silver Ore",
@@ -79,6 +116,9 @@
   "item.templarsore.titanium_nugget": "Titanium Nugget",
   "item.templarsore.titanium_chunk": "Titanium Chunk",
   "item.templarsore.titanium_pickaxe": "Titanium Pickaxe",
+
+  "_comment": "Tuff",
+  "block.templarsore.tuff": "Tuff",
 
   "_comment": "Tungsten",
   "block.templarsore.tungsten_ore": "Tungsten Ore",
