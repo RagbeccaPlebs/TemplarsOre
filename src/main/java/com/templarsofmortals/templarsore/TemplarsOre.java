@@ -2,7 +2,9 @@ package com.templarsofmortals.templarsore;
 
 import com.templarsofmortals.templarscore.core.util.RegistryHelper;
 import com.templarsofmortals.templarscore.core.util.loggers.LoggerUtil;
+import com.templarsofmortals.templarsore.core.registries.StoneWorldTypeRegistry;
 import com.templarsofmortals.templarsore.core.world.generation.OreGeneration;
+import com.templarsofmortals.templarsore.core.world.generation.StoneGeneration;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,8 +30,9 @@ public class TemplarsOre
         REGISTRY_HELPER.getDeferredBlockRegister().register(modEventBus);
         REGISTRY_HELPER.getDeferredItemRegister().register(modEventBus);
 
-        // Register ourselves for server and other game events we are interested in
+        StoneWorldTypeRegistry.setup();
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, StoneGeneration::generateStones);
         MinecraftForge.EVENT_BUS.register(this);
     }
 
@@ -37,4 +40,5 @@ public class TemplarsOre
     {
         LoggerUtil.info(Ore_Mod_Name, "Has Loaded Successfully");
     }
+
 }

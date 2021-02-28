@@ -2,6 +2,9 @@
   "_comment": "Creative Tabs",
   "itemGroup.templarsore": "Templars Ore",
 
+  "_comment": "Special",
+  "generator.minecraft.templarsore": "TemplarsOre",
+
   "_comment": "Antimony",
   "block.templarsore.antimony_ore": "Antimony Ore",
   "item.templarsore.antimony_ingot": "Antimony Ingot",
@@ -17,6 +20,9 @@
 
   "_comment": "Basalt",
   "block.templarsore.basalt": "Basalt",
+
+  "_comment": "Chalk",
+  "block.templarsore.chalk": "Chalk",
 
   "_comment": "Brass",
   "item.templarsore.brass_ingot": "Brass Ingot",
@@ -91,6 +97,9 @@
   "_comment": "Scoria",
   "block.templarsore.scoria": "Scoria",
 
+  "_comment": "Shale",
+  "block.templarsore.shale": "Shale",
+
   "_comment": "Silver",
   "block.templarsore.silver_ore": "Silver Ore",
   "item.templarsore.silver_ingot": "Silver Ingot",
@@ -98,11 +107,14 @@
   "item.templarsore.silver_chunk": "Silver Chunk",
   "item.templarsore.silver_pickaxe": "Silver Pickaxe",
 
+  "_comment": "Soapstone",
+  "block.templarsore.soapstone": "Soapstone",
+
   "_comment": "Steel",
   "item.templarsore.steel_ingot": "Steel Ingot",
   "item.templarsore.steel_nugget": "Steel Nugget",
   "item.templarsore.steel_pickaxe": "Steel Pickaxe",
-  
+
   "_comment": "Tin",
   "block.templarsore.tin_ore": "Tin Ore",
   "item.templarsore.tin_ingot": "Tin Ingot",

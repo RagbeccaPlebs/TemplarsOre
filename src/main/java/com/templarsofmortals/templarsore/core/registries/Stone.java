@@ -23,6 +23,7 @@ public class Stone {
         registerStone("aplite", MaterialColor.RED_TERRACOTTA, 3.0F, 3.0F, 4);
         registerStone("argillite", MaterialColor.WHITE_TERRACOTTA, 3.0F, 3.0F, 6);
         registerStone("basalt", MaterialColor.GRAY, 3.0F, 3.0F, 13);
+        registerStone("chalk", MaterialColor.LIGHT_GRAY, 3.0F, 3.0F, 3);
         registerStone("dolerite", MaterialColor.BLACK_TERRACOTTA, 3.0F, 3.0F, 7);
         registerStone("eclogite", MaterialColor.GREEN, 3.0F, 3.0F, 17);
         registerStone("gabbro", MaterialColor.LIGHT_GRAY, 3.0F, 3.0F, 9);
@@ -32,6 +33,8 @@ public class Stone {
         registerStone("marl", MaterialColor.LIGHT_GRAY, 3.0F, 3.0F, 5);
         registerStone("quartzite", MaterialColor.LIGHT_GRAY_TERRACOTTA, 3.0F, 3.0F, 11);
         registerStone("scoria", MaterialColor.ORANGE_TERRACOTTA, 3.0F, 3.0F, 15);
+        registerStone("shale", MaterialColor.ORANGE_TERRACOTTA, 3.0F, 3.0F, 2);
+        registerStone("soapstone", MaterialColor.GRAY, 3.0F, 3.0F, 3);
         registerStone("tuff", MaterialColor.ORANGE_TERRACOTTA, 3.0F, 3.0F, 10);
     }
 
